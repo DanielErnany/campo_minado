@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 class CampoWidget extends StatelessWidget {
   final Campo campo;
+
   final void Function(Campo) onAbrir;
   final void Function(Campo) onAlternarMarcacao;
 
